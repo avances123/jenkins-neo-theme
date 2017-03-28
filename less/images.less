@@ -5,14 +5,13 @@
 /* Src */
 
 [src$='blue.png'] {
+  .icon(@size-md);
   .icon-img('../images/ic_check_circle_black.svg', @color-green);
 }
 
 [src$='red.png'] {
+  .icon(@size-md);
   .icon-img('../images/ic_error_black.svg', @color-red);
-  &[width="24"] {
-    .icon(@size-md);
-  }
 }
 
 [src$='yellow.png'] {
