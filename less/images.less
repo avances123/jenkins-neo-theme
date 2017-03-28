@@ -1,3 +1,4 @@
+
 @import "variables";
 @import "functions";
 
@@ -9,6 +10,9 @@
 
 [src$='red.png'] {
   .icon-img('../images/ic_error_black.svg', @color-red);
+  &[width="24"] {
+    .icon(@size-md);
+  }
 }
 
 [src$='yellow.png'] {
